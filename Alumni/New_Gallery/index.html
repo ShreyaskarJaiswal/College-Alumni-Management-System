@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .lead {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .container {
+            margin: 50px auto 0 auto;
+            max-width: 960px;
+        }
+    </style>
+
+    <!--====== CSS ======-->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Bootstrap, Jquery, popper -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- For all the icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div style="width: auto;">
+        <nav class="navbar navbar-expand-sm  navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 0.9);">
+            <!-- College logo/Name -->
+            <a class="navbar-brand" href="#">
+                <img src="Logo ashoka.png" alt="logo" style="width:40px;">
+            </a>
+            <div style="height: auto; border-right: 2px solid white;"></div>
+            <a class=" navbar-nav navbar-brand" href="#"
+                style="margin: 0px 60px 0px 10px;font-family: 'Cabin Sketch', cursive;">Ashoka Alumni</a>
+
+            <!--Button to Show up when screen size shrink -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse_Navbar">
+                <!-- Navigation Links(Collaspable) -->
+                <ul class="navbar-nav">
+                    <li class="nav-item navbar-text"><a class="nav-link " href="#">Home</a></li>
+                    <li class="nav-item navbar-text"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item navbar-text"><a class="nav-link" href="#">Galleries</a></li>
+                    <li class="nav-item navbar-text"><a class="nav-link" href="#">Event</a></li>
+                    <!-- Contact Us Dropdown Menu -->
+                    <li class="nav-item dropdown navbar-text">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contact
+                            Us</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- LogIN Button -->
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        </span><a class="nav-link" href="#"> <span class="fa fa-user"></span>&nbsp &nbspLogIn</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- End Of Navigation bar -->
+
+    <!--====== Gallery Section ======-->
+    <section id="gallery">
+        <div class="container">
+
+            <!-- Filterable Gallery -->
+            <ul class="gallery_tabs">
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="cultural">Cultural</li>
+                <li data-filter="memories">Memories</li>
+                <li data-filter="sports">sports</li>
+                <li data-filter="social_activity">Social Activity</li>
+                <li data-filter="library">library</li>
+            </ul>
+
+            <div class="gallery_wrapper">
+                <div class="gallery_item cultural">
+                    <img src="images\cultural\cult4.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item social_activity">
+                    <img src="images\Social Acititviteis\social0.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item library">
+                    <img src="images\library\library0.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item memories">
+                    <img src="images\Memories\memories0.jpeg" alt="img">
+                </div>
+
+                <div class="gallery_item sports">
+                    <img src="images\sports\Cricket.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item memories">
+                    <img src="images\Memories\memories1.jpeg" alt="img">
+                </div>
+
+                <div class="gallery_item cultural">
+                    <img src="images\cultural\cult0.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item library">
+                    <img src="images\library\library1.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item social_activity">
+                    <img src="images\Social Acititviteis\social2.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item sports">
+                    <img src="images\sports\Badminton.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item memories">
+                    <img src="images\Memories\memories2.jpeg" alt="img">
+                </div>
+
+                <div class="gallery_item library">
+                    <img src="images\library\library2.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item social_activity">
+                    <img src="images\Social Acititviteis\socail3.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item sports">
+                    <img src="images\sports\Football.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item library">
+                    <img src="images\library\library3.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item cultural">
+                    <img src="images\cultural\cult2.jpg" alt="img">
+                </div>
+                <div class="gallery_item sports">
+                    <img src="images\sports\Kabaddi.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item memories">
+                    <img src="images\Memories\memories3.jpeg" alt="img">
+                </div>
+
+                <div class="gallery_item social_activity">
+                    <img src="images\Social Acititviteis\social4.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item sports">
+                    <img src="images\sports\RELAY RACE.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item cultural">
+                    <img src="images\cultural\cult3.jpg" alt="img">
+                </div>
+                <div class="gallery_item sports">
+                    <img src="images\sports\RUNNING.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item memories">
+                    <img src="images\Memories\mem0.jpeg" alt="img">
+                </div>
+
+                <div class="gallery_item social_activity">
+                    <img src="images\Social Acititviteis\social5.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item sports">
+                    <img src="images\sports\VOLLEYBALL.jpg" alt="img">
+                </div>
+
+                <div class="gallery_item cultural">
+                    <img src="images\cultural\cult1.jpg" alt="img">
+                </div>
+
+            </div>
+
+            <!-- Lightbox -->
+            <div class="lightbox">
+                <div class="lightbox_wrapper">
+                    <div class="lightbox_content">
+                        <img src="" class="lightbox_img" alt="lightbox-img">
+                    </div>
+                </div>
+                <div class="lightbox_close">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!--Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Office Address
+                    </h6>
+                    <p>Ashoka Institute of Technology and Management</p>
+                    <p><i class="fas fa-home mr-3"></i>Ashoka Engineering Chauraha, Pahariya, Sarnath,
+                        Varanasi-221007(U.P), INDIA</p>
+                    <p><i class="fas fa-envelope mr-3"></i>info@ashokaInstitute.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> +91-9198840005</p>
+                    <p><i class="fas fa-print mr-3"></i> +91-542-2582255</p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Apply Here</h6>
+                    <p><a class="text-white">Admissions</a></p>
+                    <p><a class="text-white">Online Admission</a></p>
+                    <p><a class="text-white">Scholarship</a></p>
+                    <p><a class="text-white">Syllabus</a></p>
+                    <p><a class="text-white">Student Facilitation</a></p>
+                    <p><a class="text-white">Download</a></p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Learn Here</h6>
+                    <p>
+                        <a class="text-white">Our Institute </a>
+                    </p>
+                    <p>
+                        <a class="text-white">Teaching Practices</a>
+                    </p>
+                    <p>
+                        <a class="text-white">System of Evaluation</a>
+                    </p>
+                    <p>
+                        <a class="text-white">Placements</a>
+                    </p>
+                    <p>
+                        <a class="text-white">Students Feedback</a>
+                    </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Other Links</h6>
+                    <p>
+                        <a class="text-white">Abhyuday</a>
+                    </p>
+                    <p>
+                        <a class="text-white">AICTE Recognition</a>
+                    </p>
+                    <p>
+                        <a class="text-white">MHRD Certificate</a>
+                    </p>
+                    <p>
+                        <a class="text-white">PCI Recognition</a>
+                    </p>
+                    <p>
+                        <a class="text-white">AKTU Affiliation</a>
+                    </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+                    <!-- Facebook -->
+                    <a class="btn btn-primary btn-floating m-1 social" style="background-color: #3b5998" href="#!"
+                        role="button">
+                        <i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-primary btn-floating m-1 social" style="background-color: #55acee" href="#!"
+                        role="button">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <!-- Google -->
+                    <a class="btn btn-primary btn-floating m-1 social" style="background-color: #dd4b39" href="#!"
+                        role="button">
+                        <i class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-primary btn-floating m-1 social" style="background-color: #ac2bac" href="#!"
+                        role="button">
+                        <i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-primary btn-floating m-1 social" style="background-color: #0082ca" href="#!"
+                        role="button">
+                        <i class="fab fa-linkedin-in"></i></a>
+                    <!-- Youtube -->
+                    <a class="btn btn-primary btn-floating m-1 social" style="background-color: #FF0000" href="#!"
+                        role="button">
+                        <i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">© 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!--====== JavaScript ======-->
+    <script src="./main.js"></script>
+</body>
+<script>
+    try {
+        fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+            return true;
+        }).catch(function (e) {
+            var carbonScript = document.createElement("script");
+            carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CE7DC2JW&placement=wwwcssscriptcom";
+            carbonScript.id = "_carbonads_js";
+            document.getElementById("carbon-block").appendChild(carbonScript);
+        });
+    } catch (error) {
+        console.log(error);
+    }
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LLWL5N9CSM"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-LLWL5N9CSM');
+</script>
+</html>

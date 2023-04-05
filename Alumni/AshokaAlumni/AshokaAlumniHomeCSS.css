@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*The main backgroung image slider*/
+.owl-carousel{
+  background-color: black;
+}
+.owl-carousel img{
+    width: 100vw;
+    opacity: 0.3;
+}
+
+/*social media icon*/
+.social{
+  border-radius: 50% !important;
+  border: none !important;
+  width: 40px;
+  height: 40px;
+  box-shadow: 5px 5px 25px 0.5px black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: grey;
+}
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .navbar-brand {
+    font-size: 43px !important;
+
+  }
+  .navbar-brand img{
+    height: 60px !important;
+    width: 50px !important;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1198.98px) {
+  .navbar-brand {
+    font-size: 23px !important;
+  }
+  .navbar-brand img{
+    height: 40px !important;
+    width: 30px !important;
+  }
+}
+.nav-link{
+  color: white !important;
+  text-shadow: 2px !important;
+  font-weight: bolder;
+  
+
+}
